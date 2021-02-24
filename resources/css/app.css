@@ -1,0 +1,43 @@
+@import "bootstrap";
+
+body{
+    font-family: sans-serif;
+}
+
+.myCard{
+    border-radius: 23px;
+    background: #ececec;
+    box-shadow:  9px 9px 18px #cacaca,
+    -9px -9px 18px #f6f6f6;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button{
+
+    border-radius: 6px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue{
+    background: #4fcfd8;
+    box-shadow:  5px 5px 10px #7aafb6,
+    -5px -5px 10px #98f9ff;
+}
+
+.red{
+    background: #d93b3b;
+    box-shadow:  5px 5px 10px #b67a7a,
+    -5px -5px 10px #ff9898;
+}
